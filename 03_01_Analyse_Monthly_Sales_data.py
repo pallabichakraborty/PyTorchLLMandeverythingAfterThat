@@ -18,7 +18,7 @@ import  torch
 import numpy as np
 import pandas as pd
 
-sales_data = = torch.tensor([[100, 120, 130, 110],   # Product A
+sales_data = torch.tensor([[100, 120, 130, 110],   # Product A
                            [ 90,  95, 105, 125],   # Product B
                            [140, 115, 120, 150]    # Product C
                           ], dtype=torch.float32)
